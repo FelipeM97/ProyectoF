@@ -19,7 +19,7 @@ if menuprincipal == 1:
 elif menuprincipal == 2:
     print("region 1 \n region 2 \n")
 else:
-    print("Porfavor elija una region correcta")
+    print("Porfavor elija una opción correcta")
 
 lalista=[] 
 
