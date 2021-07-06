@@ -10,8 +10,6 @@ mensaje=input("Ingrese un mensaje: ")
 
 mensajep=mensaje.lower()
 
-lenmensaje=len(mensajep)
-
 print("su traduccion respectiva es: ",end=" ")
 
 
