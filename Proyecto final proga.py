@@ -11,34 +11,15 @@ mensaje=input("Ingrese un mensaje: ")
 mensajep=mensaje.lower()
 
 
-print("""
-1 - Region de Arica y Parinacota
-2 - Region de Tarapacá
-3 - Region de Antofagasta
-4 - Region de Atacama
-5 - Region de Coquimbo
-6 - Region de Valparaiso
-7 - Region Metropolitana
-8 - Region del Libertador General Bernardo O’Higgins
-9 - Region del Maule
-10 - Region del Nuble
-11 - Region del Biobio
-12 - Region de La Araucania
-13 - Region deLos Rios
-14 - Region deLos Lagos
-15 - Region de Aysen
-16 - Region de Magallanes y la Antartica""")
+menuprincipal = int(input("Elija una opción: \n 1- Regiones \n 2- Regiones con mayor y menor densidad de contagio \n"))
 
+if menuprincipal == 1:
+    print("1- Zona Norte \n 2- Zona Centro \n 3- Zona Sur")
 
-seleccion = input()
-print("Su seleccion es:,"seleccion)
-
-
-
-
-
-print("Su Region seleccionada es:,")
-
+elif menuprincipal == 2:
+    print("region 1 \n region 2 \n")
+else:
+    print("Porfavor elija una region correcta")
 
 lalista=[] 
 
