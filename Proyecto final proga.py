@@ -18,3 +18,4 @@ print("""
 15 - Region de Aysen
 16 - Region de Magallanes y la Antartica""")
 print("hola")
+1 arica 
