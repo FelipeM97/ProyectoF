@@ -6,13 +6,13 @@ Regiones = ["region de Arica y Parinacota", "region de Tarapacá", "region de An
 
 Codigos = ["15", "01", "02", "03", "04", "05", "13", "06", "07", "16", "08", "09", "14", "10", "11", "12"]
 
-mensaje=input("Ingrese un mensaje: ") # se ocupa para introducir el mensaje que se quiere traducir
+mensaje=input("Ingrese un mensaje: ") 
 
-mensajep=mensaje.lower() #Ocupamos el .upper pasado en clases para convertir el mensaje en mayuscula para que las letras antes declaradas coinsidan y no tenga problemas con las minisculas en su contraparte se usaria .lower
+mensajep=mensaje.lower()
 
-lenmensaje=len(mensajep) #Ocupamos el len para saber la longitud del mensaje
+lenmensaje=len(mensajep)
 
-print("su traduccion respectiva es: ",end=" ") #el end ocupa para finalizar una declaración de impresión con cualquier carácter
+print("su traduccion respectiva es: ",end=" ")
 
 
 
@@ -26,12 +26,12 @@ for i in range(lenmensaje):
     
     if  flag in Regiones:
 
-        lenletra=Regiones.index(flag) #se ocupa para buscar en la lista
+        lenletra=Regiones.index(flag)
 
         morse=Codigos[lenletra]
 
-        lalista.append(morse) #combina los registros de dos o más tablas anexándolas y creando una nueva tabla. Anexar significa agregar un grupo de registros a la parte inferior de otro grupo de registros
+        lalista.append(morse) 
 
         print(morse,end=" ")
 
-print("\n",lalista) # la \n para que no tenga salto de linea y enviar la lista 
+print("\n",lalista)
