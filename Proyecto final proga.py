@@ -1,3 +1,15 @@
+archivo = open("casos.txt", "r")
+
+while True:
+    linea=archivo.readline()
+    if not linea:
+        break
+    linea=linea.strip()
+    print(linea)
+archivo.close()
+
+
+
 menuprincipal = int(input("Elija una opción: \n 1- Regiones \n 2- Regiones con mayor y menor densidad de contagio \n"))
 
 
