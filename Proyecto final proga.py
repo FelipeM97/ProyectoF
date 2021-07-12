@@ -23,3 +23,26 @@ for i in guardado["Comuna"]:
         continue
     else:
         comunas.append(i)
+#En esta seccion se mostrara el menu para poder elegir lo que deseamos hacer
+print("\nColoque el numero 1 para poder ver las comunas \nColoque el numero 2 si desea ver la regiones\nColoque el numero 3 si desea ver la region con mayor y menor cantidad de contagios\nColoque el numero 4 para finalizar el programa")
+
+#Aca el codigo entra en un ciclo while para que el usuario se le repita en caso de elegir una opcion que no se encuentra dentro del menu
+MenuPrincipal = int(input(""))
+while (MenuPrincipal > 3):
+    print("Porfavor elija una opcion correcta")
+    MenuPrincipal = int(input("\nColoque el numero 1 para poder ver las comunas \nColoque el numero 2 si desea ver la regiones\nColoque el numero 3 si desea ver la region con mayor y menor cantidad de contagios\nColoque el numero 4 para finalizar el programa"))
+while (MenuPrincipal > 0):
+
+
+    if MenuPrincipal == 1:
+        
+        aray = np.column_stack((comunas, ))
+        #se ocupa el column_stack para agrupar las comunas en una columna
+        areas = {"comunas":comunas}
+        print(aray,end=", ")
+
+        print("\n\n escoja la comuna que desea escribiendola tal cual asi se muestra: ")
+        eleccion = input()
+        break
+
+    elif MenuPrincipal == 2:
