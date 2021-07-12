@@ -84,3 +84,23 @@ while (MenuPrincipal > 0):
         break
 #En esta sección de codigo el usuario al elegiir el numero 3 se despliega un grafico de barra con la region con mayor contagios, y la region con menos contagios
     elif MenuPrincipal == 3:
+
+        eje_x = ["Metropolitana", "Aysen"]
+
+        eje_y = [1444791,19290 ]
+
+        plt.bar(eje_x, eje_y)
+
+        plt.ylabel("Contagios")
+
+        plt.xlabel("Regiones")
+
+        plt.title("Region con mayor y menor cantidad de contagios")
+
+        plt.show()
+
+        break
+#al elegir el numero 4 el programa finaliza
+    elif MenuPrincipal == 4:
+        print("Programa finalizado")
+        break
