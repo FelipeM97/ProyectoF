@@ -46,3 +46,41 @@ while (MenuPrincipal > 0):
         break
 
     elif MenuPrincipal == 2:
+        
+ #en esta seccion se despliegan las regiones con sus respectivos codigos dependiendo de la eleccion del usuario
+        print("""
+    1 - Region de Arica y Parinacota, el respectivo Codigo es = 15
+
+    2 - Region de Tarapacá, el respectivo Codigo es = 01
+
+    3 - Region de Antofagasta, el respectivo Codigo es = 02
+
+    4 - Region de Atacama, el respectivo Codigo es = 03
+
+    5 - Region de Coquimbo, el respectivo Codigo es = 04
+
+    6 - Region de Valparaiso, el respectivo Codigo es = 05
+
+    7 - Region Metropolitana, el respectivo Codigo es = 13
+
+    8 - Region del Libertador General Bernardo O’Higgins, el respectivo Codigo es = 06
+
+    9 - Region del Maule, el respectivo Codigo es = 07
+
+    10 - Region del Nuble, el respectivo Codigo es = 16
+
+    11 - Region del Biobio, el respectivo Codigo es = 08
+
+    12 - Region de La Araucania, el respectivo Codigo es = 09
+
+    13 - Region deLos Rios, el respectivo Codigo es = 14
+
+    14 - Region deLos Lagos, el respectivo Codigo es = 10
+
+    15 - Region de Aysen, el respectivo Codigo es = 11
+
+    16 - Region de Magallanes y la Antartica, el respectivo Codigo es = 12""")
+        print("Ejecute el programa nuevamente para elegir otras opciones")
+        break
+#En esta sección de codigo el usuario al elegiir el numero 3 se despliega un grafico de barra con la region con mayor contagios, y la region con menos contagios
+    elif MenuPrincipal == 3:
